@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.row {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 300px;
+  display: flex;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  font-size: 24px;
+  margin: 0;
+  border-left: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.box:last-child {
+  border-right: 1px solid;
+}
+
+.winner {
+  background-color: green !important;
+}
